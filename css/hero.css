@@ -51,11 +51,7 @@
     max-width: 50rem;
     margin: 0 auto;
 }
-.policy__img {
-    display: block;
-    width: 100%;
-    margin-bottom: 3rem;
-}
+
 .policy__item .sub-title,
 .policy__item .text {
     margin-bottom: 2rem;
@@ -84,7 +80,9 @@
 .policy .btn:hover {
    background-color: var(--second-brand-color);
 }
-
+.policy__item:not(:last-child) {
+    margin-bottom: 5rem;
+}
 
 
 
@@ -96,14 +94,7 @@
    background-color: var(--second-brand-color);
    padding: 2rem 1rem;
 }
-.phrase__img {
-    display: block;
-    margin-bottom: .5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 60rem;
-}
+
 
 @media screen and (min-width: 1440px) {
     .hero__wrapper { 
@@ -123,11 +114,7 @@
     .policy__item:nth-child(odd) {
         flex-direction: row-reverse;
     }
-    .policy__img {
-        max-width: 70rem;
-        margin-bottom: 0;
-        margin-right: 5rem;
-    }
+
     .policy__block {
         max-width: 50rem;
         margin: 0 auto;
