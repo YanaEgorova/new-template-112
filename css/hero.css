@@ -8,7 +8,7 @@
 .hero .title {
     margin-bottom: 2rem;
 }
-.hero .title span {
+.hero .title-span {
     display: block;
     font-family: var(--title-font);
     color: var(--fourth-brand-color);
